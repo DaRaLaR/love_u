@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love U</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-size: 5rem;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style>
+    <script>
+        function displayMessage() {
+            while (true) {
+                alert('Love U');
+                document.body.classList.toggle('blue');
+                document.body.classList.toggle('red');
+            }
+        }
+    </script>
+</head>
+<body>
+    <a href="#" onclick="displayMessage(); return false;">Click Me!</a>
+</body>
+</html>
