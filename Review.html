@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review page</title>
+
+    <style>
+        table{
+            background-color: rgb(134, 244, 237);
+        }
+        
+        
+            
+        
+        h1{
+            background-image: url(photo_2023-07-24_21-09-18.jpg);
+            margin-top: 10px;
+           text-align: center;
+            height: 170px;
+            color: white;
+            line-height: 5;
+        }
+    </style>
+</head>
+<body>
+   
+        
+        
+    
+    <div>
+        <form name="order" id="order" method="post">
+            <font  size="4" color="black" face="time new roman" >
+              <table cellspacing="15"  align="center">
+                <tr>
+                    <td colspan="2"><h1>Food Review</h1></td>
+                </tr>
+        
+                  <tr>
+                    <td align="right">Full name</td>
+                    <td><input type="text" name="name" id="name" size="42"></td>
+                  </tr> 
+                  <tr>
+                    <td align="right">Email</td>
+                    <td><input type="email" name="email" id="name" size="42"></td>
+                  </tr>
+                  
+                  
+                  <tr>
+                    <td align="right"><form><label>How much do you like it?</label></td>
+                    <td><input align="left" type="radio" name="selection" value="I love it">I love it<br>
+                      <input type="radio" name="selection" value="It's ok">It's ok<br>
+                      <input type="radio" name="selection" value="I like it">I like it<br>
+                      <input type="radio" name="selection" value="Not rearely">Not rarely<br>
+                    </form></td>
+                  <tr>
+                    <td align="right"><form><label>Who do you watch tv channel?<br>(Check all that apply)</label>
+                      <td>
+                      <input type="checkbox" name="a" value="Alone">Alone<br>
+                      <input type="checkbox" name="a" value="Family">Family<br>
+                      <input type="checkbox" name="a" value="Friends">Friends<br>
+                      <input type="checkbox" name="a" value="Colleages">Colleages<br>
+                      <input type="checkbox" name="a" value="Others">Others<br>
+                      </td>
+                      </form></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Tell us about your favourite characters (or) recipes</td>
+                    <td><textarea name="Fav Char or ep" cols="42" rows="6"></textarea></td>
+                    </tr>
+                    <tr>
+                    <td><input type="submit" value="Submit"></td>
+                  </tr>
+              </table>
+            </font>
+          </form>
+    </div>
+
+</body> 
+</html>
